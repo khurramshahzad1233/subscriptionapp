@@ -1,0 +1,15 @@
+.sidebarcontainer{
+    width: 20vw;
+    background: aliceblue;
+    height: 100vh;
+    padding: 84px 40px
+}
+.sidebarcontainer p{
+    margin: 10px;
+
+}
+.sidebarcontainer>p>a{
+    padding: 0px 24px 0px 24px;
+    text-decoration: none;
+
+}

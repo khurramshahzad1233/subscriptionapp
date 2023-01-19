@@ -1,0 +1,52 @@
+.sidebardiv{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 20vw;
+}
+.createcoursepage{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.createcoursecontainer{
+    width: 40vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.createcoursecontainer>h4{
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0 0 24px 0;
+}
+.createcoursecontainer>form{
+    width: 100%;
+    text-align: center;
+}
+.createcoursecontainer>form>p>input{
+    width: 80%;
+    padding: 5px;
+    border-radius: 6px;
+}
+.createcoursecontainer>form>p{
+    margin: 12px 0;
+}
+.createcoursecontainer>form>p>select{
+    width: 80%;
+    padding: 5px;
+    border-radius: 5px;
+}
+.createcourseimage>img{
+    width: 100%;
+}
+.createcourseimage{
+    width: 10vw;
+    margin: 11px auto 3px auto;
+
+}

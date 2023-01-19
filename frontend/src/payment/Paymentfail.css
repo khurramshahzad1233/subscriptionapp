@@ -1,0 +1,25 @@
+.paymentfailpage{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+.paymentfailpage>p>svg{
+    font-size: 5rem;
+    color: red;
+
+}
+.paymentfailpage>p:nth-child(2){
+    font-size: 2rem;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: red;
+}
+.paymentfailpage>p>a{
+    font-family: Roboto;
+    color: green;
+    text-decoration: none;
+    font-weight: 500;
+}

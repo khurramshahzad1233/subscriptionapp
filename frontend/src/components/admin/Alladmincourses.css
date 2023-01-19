@@ -1,0 +1,42 @@
+.alladmincoursespage{
+    width: 100vw;
+}
+.alladmincoursespagesidebardiv{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+.alladmincoursespage>h3{
+    font-family: Roboto;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-bottom: 1px solid gray;
+    width: 20vw;
+   
+    text-align: center;
+    margin: 40px auto 22px auto;
+}
+tbody>tr>td:nth-child(2){
+    width: 5vw;
+    text-align: center;
+
+}
+tbody>tr>td:nth-child(2)>img{
+    width: 70%;
+}
+.alladmincoursestablecontainer{
+    margin: 2vw 2vw 2vw 22vw;
+}
+thead{
+    background: aliceblue;
+}
+thead>tr>th{
+    padding: 1vw 2vw 1vw 2vw;
+    font-family: Roboto;
+    font-size: 1.3rem;
+}
+tbody>tr>td{
+    font-family: Roboto;
+}

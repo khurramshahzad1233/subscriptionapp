@@ -1,0 +1,66 @@
+.addvideolecturepage{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+.addvideocontainer{
+    width: 30vw;
+    background-color: aliceblue;
+    
+}
+.addvideocontainer>h3{
+    font-family: 'Roboto';
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 23px 0 15px 0;
+}
+.addvideolectureform>p>input{
+    width: 80%;
+    padding: 5px;
+    border-radius: 3px;
+
+}
+.addvideolectureform>p{
+    text-align: center;
+    margin: 16px 5px;
+}
+.addvideopreview{
+    width: 30vw;
+    text-align: center;
+}
+video{
+    width: 80%;
+    
+}
+.allvideolecturecontainer{
+    width: 70vw;
+}
+.allvideolecturecontainer>h5{
+    font-size: 2rem;
+    font-family: Roboto;
+    letter-spacing: 1.2px;
+    margin: 3vmax;
+    text-align: center
+}
+.allvideolecturediv{
+    padding: 5vmax
+
+}
+.singlevideolecture{
+    display: flex;
+    box-shadow: 2px 2px 4px grey;
+    padding: 2.5vmax;
+    margin: 2vmin;
+
+}
+.singlevideolecture>div:nth-child(1){
+    width: 80%;
+    
+    
+}
+.singlevideolecture>div>p{
+    font-family: SANS-SERIF;
+    font-size: 1.2rem;
+    font-weight: 500;
+}

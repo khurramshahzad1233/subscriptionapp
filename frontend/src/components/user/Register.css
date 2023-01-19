@@ -1,0 +1,67 @@
+.avatarpreview{
+    width: 87px;
+    text-align: center;
+    margin: auto;
+
+}
+.avatarpreview img{
+    width: 100%;
+
+}
+.registerpage{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.registercontainer{
+    width: 35vw;
+    /* height: 70vh; */
+}
+.registercontainer h4{
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.registerform input{
+    width: 100%;
+}
+.label{
+    font-family: 'Roboto';
+   
+    padding: 8px 0px;
+
+}
+.inputsubmit{
+    margin: 9px 0;
+}
+.inputsubmit>input[type=submit]{
+    padding: 8px;
+    border-radius: 5px;
+    background: aqua;
+    font-family: Roboto;
+    font-size: 1.1rem;
+}
+.alreadysignupdiv>p{
+    font-family: 'Montserrat';
+    font-weight: 600;
+
+
+}
+.alreadysignupdiv>span{
+    font-family: Montserrat;
+   
+}
+.alreadysignupdiv>span>a{
+    text-decoration: none;
+    font-family: 'Montserrat';
+    color: black;
+    font-weight: 600;
+    color: blue;
+
+}
+
+

@@ -1,0 +1,215 @@
+import {createReducer} from "@reduxjs/toolkit";
+
+const userinitialstate={
+    user:{}
+};
+export const userreducer=createReducer(userinitialstate,{
+    REGISTER_USER_REQUEST:(state,action)=>{
+        return{
+            loading:true,
+            user:{},
+            isAuthenticated:false,
+        }
+    },
+    REGISTER_USER_SUCCESS:(state,action)=>{
+        return{
+            loading:false,
+            user:action.payload.user,
+            isAuthenticated:true,
+        }
+    },
+    REGISTER_USER_FAIL:(state,action)=>{
+        return{
+            loading:false,
+            isAuthenticated:false,
+            user:null,
+            error:action.payload
+        }
+    },
+    CLEAR_ERROR:(state,action)=>{
+        return{
+            loading:false,
+            ...state,
+            error:null
+        }
+    },
+    default:(state,action)=>{
+        return{
+            state,
+        }
+    },
+    LOGIN_USER_REQUEST:(state,action)=>{
+        return{
+            loading:true,
+            user:{},
+            isAuthenticated:false,
+        }
+    },
+    LOGIN_USER_SUCCESS:(state,action)=>{
+        return{
+            loading:false,
+            user:action.payload.user,
+            isAuthenticated:true,
+        }
+    },
+    LOGIN_USER_FAIL:(state,action)=>{
+        return{
+            loading:false,
+            isAuthenticated:false,
+            user:{},
+            error:action.payload,
+        }
+    },
+    LOAD_USER_REQUEST:(state,action)=>{
+        return{
+            loading:true,
+            isAuthenticated:false,
+            user:{}
+        }
+    },
+    LOAD_USER_SUCCESS:(state,action)=>{
+        return{
+            loading:false,
+            user:action.payload.user,
+            isAuthenticated:true,
+        }
+    },
+    LOAD_USER_FAIL:(state,action)=>{
+        return{
+            loading:false,
+            user:{},
+            isAuthenticated:false,
+            error:action.payload,
+        }
+    },
+})
+
+
+
+const updateprofileinitialstate={
+    updateprofile:{}
+};
+export const updateprofilereducer=createReducer(updateprofileinitialstate,{
+    UPDATE_AVATAR_REQUEST:(state,action)=>{
+        return{
+            loading:true,
+            updateprofile:{},
+            isUpdated:false,
+
+        }
+    },
+    UPDATE_AVATAR_SUCCESS:(state,action)=>{
+        return{
+            loading:false,
+            isUpdated:action.payload.success,
+        }
+    },
+    UPDATE_AVATAR_FAIL:(state,action)=>{
+        return{
+            loading:false,
+            isUpdated:false,
+            error:action.payload,
+        }
+    },
+    CLEAR_ERROR:(state,action)=>{
+        return{
+            ...state,
+            error:null,
+        }
+    },
+    default:(state,action)=>{
+        return{
+            state,
+        }
+    }
+})
+
+const addtoplaylistinitialstate={
+    addtoplaylist:{}
+}
+export const addtoplaylistreducer=createReducer(addtoplaylistinitialstate,{
+    ADD_TO_PLAYLIST_REQUEST:(state,action)=>{
+        return{
+            loading:true,
+            addtoplaylist:{}
+        }
+    },
+    ADD_TO_PLAYLIST_SUCCESS:(state,action)=>{
+        return{
+            loading:true,
+            addtoplaylist:action.payload.success,
+            isAdded:true,
+        }
+    },
+    ADD_TO_PLAYLIST_RESET:(state,action)=>{
+        return{
+            loading:false,
+            addtoplaylist:{},
+            isAdded:false,
+        }
+    },
+    ADD_TO_PLAYLIST_FAIL:(state,action)=>{
+        return{
+            loading:false,
+            addtoplaylist:{},
+            isAdded:false,
+            error:action.payload,
+        }
+    },
+    CLEAR_ERROR:(state,action)=>{
+        return{
+            ...state,
+            error:null,
+        }
+    },
+    default:(state,action)=>{
+        return{
+            state,
+        }
+    }
+})
+
+const removefromplaylistinitialstate={
+    removefromplaylist:{}
+};
+export const removefromplaylistreducer=createReducer(removefromplaylistinitialstate,{
+    REMOVE_FROM_PLAYLIST_REQUEST:(state,action)=>{
+        return{
+            loading:true,
+            removefromplaylist:{}
+        }
+    },
+    REMOVE_FROM_PLAYLIST_SUCCESS:(state,action)=>{
+        return{
+            loading:false,
+            removefromplaylist:action.payload.success,
+            isDeleted:true,
+        }
+    },
+    REMOVE_FROM_PLAYLIST_FAIL:(state,action)=>{
+        return{
+            loading:false,
+            removefromplaylist:{},
+            isDeleted:false,
+            error:action.payload,
+        }
+    },
+    REMOVE_FROM_PLAYLIST_RESET:(state,action)=>{
+        return{
+            loading:false,
+            isDeleted:false,
+            removefromplaylist:{}
+        }
+    },
+    CLEAR_ERROR:(state,action)=>{
+        return{
+            ...state,
+            error:null,
+        }
+    },
+    default:(state,action)=>{
+        return{
+            state,
+        }
+    }
+})

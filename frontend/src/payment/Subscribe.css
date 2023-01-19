@@ -1,0 +1,52 @@
+.subscribepage{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subscribecontainer{
+    width: 30vw;
+    background-color: antiquewhite;
+    border-radius: 15px;
+}
+.subscribecontainer>h3{
+    font-family: Roboto;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 15px 2px;
+
+}
+.subscribediv>p:nth-child(1){
+    background: yellow;
+    font-size: 1.1rem;
+    font-family: Roboto;
+    padding: 8px 4px;
+}
+
+.subscribediv>p:nth-child(2),.subscribediv>p:nth-child(3){
+    font-family: Roboto;
+    text-align: center;
+    padding: 9px;
+}
+.subscribebottom{
+    background: gray;
+    color: white;
+    font-family: Roboto;
+    padding: 5px;
+    margin: 5px 0 0 0;
+}
+.subscribediv a{
+    cursor: pointer;
+    font-family: Roboto;
+    background: yellow;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    padding: 8px 5px;
+    border-radius: 9px;
+}
+.subscribebottom>p:nth-child(2){
+    font-size: 9px;
+}

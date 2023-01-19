@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.notfoundpage{
+    
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.notfoundpage svg{
+    font-size: 6rem;
+    color: tomato;
+}
+.notfoundpage h4{
+    font-family: Montserrat;
+    font-size: 2rem;
+}
+.notfoundpage>a>button{
+    padding: 10px 29px;
+    font-size: 1.3rem;
+    background: tomato;
+    border: none;
+    border-radius: 10px;
+}
+.notfoundpage>a{
+    margin: 20px;
+}

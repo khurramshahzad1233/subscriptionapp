@@ -1,0 +1,21 @@
+.alllecturecontainer{
+    width: 100vw;
+    display: flex;
+
+}
+.alllecturevideoplayer{
+    width: 80vw;
+}
+.alllectureindex{
+    width: 20vw;
+}
+.lectureplayer{
+
+}
+.lectureplayer>video{
+    width: 100%;
+}
+.lecturebtn{}
+.lecturebtn>button{
+    width: 80%;
+}

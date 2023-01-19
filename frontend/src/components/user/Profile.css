@@ -1,0 +1,92 @@
+.profilenamediv p{
+    font-family: Roboto;
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 45px 0 0 0;
+    border-bottom: 2px solid black;
+
+}
+.profilenamediv{
+    width: 30vw;
+    margin: auto;
+}
+.profilecontainer{
+    display: flex;
+    justify-content: center;
+}
+.profileimage>img{
+    width: 100%;
+    border-radius: 100%;
+}
+.profileimage{
+    width: 20vw;
+    padding: 11px 69px 0 0;
+    margin: 7px 20px 0 0;
+   
+    
+
+}
+.profileinfo>label{
+    font-family: 'Roboto';
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.profileinfo>span{
+    font-family: 'Roboto';
+    padding: 0px 0 0 17px
+}
+.profilebtndiv a{
+    padding: 0px 21px 0 0;
+}
+.profilebtndiv a button{
+    border: none;
+    padding: 5px;
+}
+.profileinfodiv{
+    padding: 20px;
+
+}
+.profileinfo{
+    padding: 11px
+}
+.profilebtndiv{
+    padding: 8px 4px 2px 12px;
+}
+.profileimagediv p button{
+    border: none;
+    padding: 5px;
+}
+.profileimagediv p{
+    text-align: center;
+    padding: 24px 83px 0 0
+}
+.profileplaylistheading>h4{
+    font-family: 'Roboto';
+    font-size: 1.6rem;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+.profileplaylistheading{
+    width: 20vw;
+    margin: 26px auto 0 auto;
+
+}
+.imagepopupcancelbtn{
+    text-align: right;
+    margin: 10px;
+}
+.profileplaylistcontainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+}
+.profilecourselistdiv{
+    width: 300px;
+}
+.profilecourselistdiv>p>img{
+    width: 100%;
+}
+.profilecourselistdiv>p:nth-child(1){
+    width: 100%;
+
+}

@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.burgermenu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translateX(0%);
+    z-index: 100;
+    background-color: rgb(160, 65, 65);
+    width: 30vw;
+    height: 100vh;
+    padding: 100px 0px 0px 60px;
+    transition: all 1s ease-in-out;
+
+}
+.closemenu{
+    position: fixed;
+    transform: translateX(-100%);
+    top: 0%;
+    left: 0%;
+    transition: all 1s ease-in-out;
+}
+.backdrop{
+    background-color: rgba(128, 128, 128, 0.87);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    
+    transition: all 1s ease-in-out;
+    visibility: visible;   
+
+}
+.closebackdrop{
+    visibility: collapse;
+    transition: visibility 1s ease-in-out;
+
+}
+.fabaricon{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    font-size: 2rem;
+    z-index: 10000;
+}
+.menudiv{
+    margin: 16px 0;
+}
+.menudiv a{
+    font-family: Roboto;
+    color: black;
+}

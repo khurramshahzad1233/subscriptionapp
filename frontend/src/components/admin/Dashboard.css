@@ -1,0 +1,10 @@
+.databoxcontainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
+.sidebar{
+    position: absolute;
+    width: 30vw;
+    left: 0%;
+    top: 0%;
+}
